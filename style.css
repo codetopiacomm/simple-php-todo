@@ -66,6 +66,7 @@ button.todo__add {
 .todo__buttons button {
   border: 0;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .todo__buttons button i {
