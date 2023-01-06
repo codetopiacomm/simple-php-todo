@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.todo {
+  max-width: 1220px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+input {
+  appearance: none;
+  border: 2px solid rgb(61, 45, 45);
+  outline: 0;
+  font-size: 2rem;
+  padding: 0.6rem;
+}
+
+button.todo__add {
+  font-size: 2.3rem;
+  padding: 0.5rem;
+  border: 0;
+  background-color: rgb(47, 84, 205);
+  color: white;
+  font-weight: 900;
+  margin-left: 1rem;
+}
+
+.todo__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 600px;
+    background: rgb(69, 29, 29);
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.todo__text {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.dates {
+    width: 100%;
+    text-align: left;
+    color: white;
+}
+
+.todo__buttons button {
+  border: 0;
+  background-color: transparent;
+}
+
+.todo__buttons button i {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  padding: .6rem;
+  border-radius: .4rem;
+}
+
+button.delete i {
+    background-color: red;
+}
+
+button.edit i {
+    background-color: rgb(131, 131, 71);
+}
+
+button.complete i {
+   background-color: green; 
+}
