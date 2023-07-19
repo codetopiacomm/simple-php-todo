@@ -1,3 +1,3 @@
 # About Project
 
-A simple php todo app with sql
+A simple php todo app with SQL
